@@ -1,9 +1,20 @@
 {
-	"required": true,
-	"package": "com.kielson.mixin",
-	"compatibilityLevel": "JAVA_21",
-	"mixins": [],
-	"injectors": {
-		"defaultRequire": 1
-	}
+  "required": true,
+  "package": "com.kielson.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "jewelry_slots.CreativeModeInventoryScreenMixin",
+    "jewelry_slots.EquipmentSlotGroupMixin",
+    "jewelry_slots.InventoryMenuMixin",
+    "jewelry_slots.InventoryScreenMixin",
+    "jewelry_slots.PlayerMixin",
+    "jewelry_slots.ServerGamePacketListenerImplMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "jewelry_slots.CreativeModeInventoryScreenMixin",
+    "jewelry_slots.InventoryScreenMixin"
+  ]
 }
