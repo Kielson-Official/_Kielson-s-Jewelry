@@ -8,9 +8,9 @@
 		"_Kielson"
 	],
 	"contact": {
-		"sources": "https://github.com/Kielson123/_Kielson-s-Jewelry"
+		"sources": "https://github.com/Kielson123/Rings-And-Things"
 	},
-	"license": "GNU GPL-3.0",
+	"license": "MIT",
 	"icon": "assets/rings_and_things/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -28,10 +28,10 @@
 		"rings_and_things.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.16.14",
-		"minecraft": "~1.21.5",
-		"java": ">=21",
-		"fabric-api": ">=0.124.2"
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": ">=0.152.2+26.2"
 	},
 	"accessWidener" : "rings_and_things.accesswidener"
 }

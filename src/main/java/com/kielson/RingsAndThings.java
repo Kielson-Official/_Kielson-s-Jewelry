@@ -1,9 +1,8 @@
 package com.kielson;
 
-import com.kielson.block.RingsAndThingsBlocks;
 import com.kielson.item.RingsAndThingsItemGroups;
 import com.kielson.item.RingsAndThingsItems;
-import com.kielson.util.RingsAndThingsStats;
+import com.kielson.util.RingsAndThingsComponents;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -16,8 +15,8 @@ public class RingsAndThings implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		RingsAndThingsItems.initialize();
+		RingsAndThingsComponents.initialize();
 		RingsAndThingsItemGroups.initialize();
-		RingsAndThingsStats.initialize();
-		RingsAndThingsBlocks.initialize();
+		RingsAndThingsTags.initialize();
 	}
 }
