@@ -1,0 +1,99 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "rings_and_things:item/stone_ring_empty"
+        },
+        "when": {
+          "gem": "none"
+        }
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "rings_and_things:item/stone_ring_diamond"
+        },
+        "when": {
+          "gem": "diamond"
+        }
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "rings_and_things:item/stone_ring_emerald"
+        },
+        "when": {
+          "gem": "emerald"
+        }
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "rings_and_things:item/stone_ring_amethyst"
+        },
+        "when": {
+          "gem": "amethyst"
+        }
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "rings_and_things:item/stone_ring_resin"
+        },
+        "when": {
+          "gem": "resin"
+        }
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "rings_and_things:item/stone_ring_prismarine"
+        },
+        "when": {
+          "gem": "prismarine"
+        }
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "rings_and_things:item/stone_ring_obsidian"
+        },
+        "when": {
+          "gem": "obsidian"
+        }
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "rings_and_things:item/stone_ring_quartz"
+        },
+        "when": {
+          "gem": "quartz"
+        }
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "rings_and_things:item/stone_ring_glowstone"
+        },
+        "when": {
+          "gem": "glowstone"
+        }
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "rings_and_things:item/stone_ring_redstone"
+        },
+        "when": {
+          "gem": "redstone"
+        }
+      }
+    ],
+    "component": "rings_and_things:jewelry",
+    "property": "minecraft:component"
+  }
+}

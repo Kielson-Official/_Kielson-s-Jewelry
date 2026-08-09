@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "rings_and_things:item/stone_ring_empty"
+  }
+}
