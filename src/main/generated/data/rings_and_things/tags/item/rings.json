@@ -1,5 +1,9 @@
 {
   "values": [
-    "rings_and_things:ring"
+    "rings_and_things:stone_ring",
+    "rings_and_things:copper_ring",
+    "rings_and_things:iron_ring",
+    "rings_and_things:golden_ring",
+    "rings_and_things:netherite_ring"
   ]
 }
