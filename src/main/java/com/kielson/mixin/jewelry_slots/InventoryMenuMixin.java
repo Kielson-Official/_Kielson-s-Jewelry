@@ -23,8 +23,8 @@ public abstract class InventoryMenuMixin {
         AbstractContainerMenu containerMenu = (AbstractContainerMenu)(Object)this;
 
         containerMenu.addSlot(new JewelrySlot(customContainer, PlayerJewelrySlots.RING_SLOT, 77, 44, "container/slot/ring", RingsAndThingsTags.RINGS));
-        containerMenu.addSlot(new JewelrySlot(customContainer, PlayerJewelrySlots.BRACELET_SLOT, 77, 26, "container/slot/bracelet", RingsAndThingsTags.RINGS));
-        containerMenu.addSlot(new JewelrySlot(customContainer, PlayerJewelrySlots.NECKLACE_SLOT, 77, 8, "container/slot/necklace", RingsAndThingsTags.RINGS));
+        containerMenu.addSlot(new JewelrySlot(customContainer, PlayerJewelrySlots.BRACELET_SLOT, 77, 26, "container/slot/bracelet", RingsAndThingsTags.BRACELETS));
+        containerMenu.addSlot(new JewelrySlot(customContainer, PlayerJewelrySlots.NECKLACE_SLOT, 77, 8, "container/slot/necklace", RingsAndThingsTags.NECKLACES));
     }
 
     @Inject(method = "quickMoveStack", at = @At("HEAD"), cancellable = true)
