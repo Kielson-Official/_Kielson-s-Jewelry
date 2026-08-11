@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "rings_and_things:item/iron_necklace",
+    "layer1": "rings_and_things:item/iron_necklace_obsidian"
+  }
+}

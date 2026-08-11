@@ -34,6 +34,18 @@ public class RingsAndThingsModelProvider extends FabricModelProvider {
         generateJewelryItem(RingsAndThingsItems.IRON_RING, itemModelGenerators);
         generateJewelryItem(RingsAndThingsItems.GOLDEN_RING, itemModelGenerators);
         generateJewelryItem(RingsAndThingsItems.NETHERITE_RING, itemModelGenerators);
+
+        generateJewelryItem(RingsAndThingsItems.STONE_BRACELET, itemModelGenerators);
+        generateJewelryItem(RingsAndThingsItems.COPPER_BRACELET, itemModelGenerators);
+        generateJewelryItem(RingsAndThingsItems.IRON_BRACELET, itemModelGenerators);
+        generateJewelryItem(RingsAndThingsItems.GOLDEN_BRACELET, itemModelGenerators);
+        generateJewelryItem(RingsAndThingsItems.NETHERITE_BRACELET, itemModelGenerators);
+
+        generateJewelryItem(RingsAndThingsItems.STONE_NECKLACE, itemModelGenerators);
+        generateJewelryItem(RingsAndThingsItems.COPPER_NECKLACE, itemModelGenerators);
+        generateJewelryItem(RingsAndThingsItems.IRON_NECKLACE, itemModelGenerators);
+        generateJewelryItem(RingsAndThingsItems.GOLDEN_NECKLACE, itemModelGenerators);
+        generateJewelryItem(RingsAndThingsItems.NETHERITE_NECKLACE, itemModelGenerators);
     }
 
     private void generateJewelryItem(Item item, ItemModelGenerators itemModelGenerators){

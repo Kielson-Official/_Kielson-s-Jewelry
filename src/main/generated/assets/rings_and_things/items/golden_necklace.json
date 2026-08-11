@@ -1,0 +1,99 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "rings_and_things:item/golden_necklace_empty"
+        },
+        "when": {
+          "gem": "none"
+        }
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "rings_and_things:item/golden_necklace_diamond"
+        },
+        "when": {
+          "gem": "diamond"
+        }
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "rings_and_things:item/golden_necklace_emerald"
+        },
+        "when": {
+          "gem": "emerald"
+        }
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "rings_and_things:item/golden_necklace_amethyst"
+        },
+        "when": {
+          "gem": "amethyst"
+        }
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "rings_and_things:item/golden_necklace_resin"
+        },
+        "when": {
+          "gem": "resin"
+        }
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "rings_and_things:item/golden_necklace_prismarine"
+        },
+        "when": {
+          "gem": "prismarine"
+        }
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "rings_and_things:item/golden_necklace_obsidian"
+        },
+        "when": {
+          "gem": "obsidian"
+        }
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "rings_and_things:item/golden_necklace_quartz"
+        },
+        "when": {
+          "gem": "quartz"
+        }
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "rings_and_things:item/golden_necklace_glowstone"
+        },
+        "when": {
+          "gem": "glowstone"
+        }
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "rings_and_things:item/golden_necklace_redstone"
+        },
+        "when": {
+          "gem": "redstone"
+        }
+      }
+    ],
+    "component": "rings_and_things:jewelry",
+    "property": "minecraft:component"
+  }
+}
